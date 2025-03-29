@@ -14,6 +14,7 @@ public class practiceMouseHover extends GoogleBase {
         launchBrowser("https://the-internet.herokuapp.com/hovers");
 
         //trying to create branch to check in git hub
+        //testing git hub
 
         WebElement img1=driver.findElement(By.xpath("(//div[@class='figure']/img)[1]"));
         WebElement text1=driver.findElement(By.xpath("(//div[@class='figcaption'])[1]/h5"));
